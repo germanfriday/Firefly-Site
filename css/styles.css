@@ -1,0 +1,325 @@
+/* Reset Styles*/
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details,figcaption, figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}body {line-height:1;}article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary { display:block;}
+nav ul {list-style:none;}blockquote, q {quotes:none;}blockquote:before, blockquote:after,q:before, q:after {content:'';content:none;}a {margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;background:transparent;}ins {background-color:#ff9;color:#000;text-decoration:none;}mark {background-color:#ff9;color:#000;font-style:italic;font-weight:bold;}del {text-decoration: line-through;}abbr[title], dfn[title] {border-bottom:1px dotted #000; cursor:help;}table {border-collapse:collapse;border-spacing:0;}hr {display:block;height:1px;border:0;border-top:1px solid #cccccc;margin:1em 0;padding:0;}input, select {vertical-align:middle;}
+/* Reset Styles*/
+
+
+/* Note: Make HTML 5 elements block-level for consistent styling */
+header, nav, article, footer, aside, video {display:block;}
+
+* {margin: 0;}
+html, body {height:100%; color:#333; background:#fff; font-family: Arial, Helvetica, sans-serif; font-size:12px; line-height:250%;}
+a {color:#9BC551; text-decoration: underline;}
+a:hover {color:#666;}
+.strong {font-weight: bold; }
+strong {font-weight: bold; }
+.em {font-style: italic;}
+em {font-style: italic;}
+sup {font-size: 80%; line-height: 0;}
+sub {font-size: 80%; line-height: 0;}
+.clear {clear:both; height:0; width:0; margin:0; padding:0; border:0; border-collapse:collapse;}
+
+h1 {position:absolute; margin:10px 0 0 40px; padding:0; background: url(../img/firefly-logo.png) no-repeat top right; width:150px; height:79px; }
+h1 a {display:block; border-left: none; margin:0; padding:0; width:150px; height:79px; text-indent:-9999px; background: url(../img/firefly-logo.png) no-repeat top left; text-decoration:none; 
+	-webkit-transition: opacity .6s ease-in-out, background 0s 2012s; 
+    -moz-transition: opacity .6s ease-in-out, background 0s 2012s; 
+    -o-transition: opacity .6s ease-in-out, background 0s 2012s; 
+    transition: opacity .6s ease-in-out, background 0s 2012s;}
+h1 a:hover, 
+h1 a:focus {opacity: 0;}
+
+h2 {color:#666; font-size:24px; padding-bottom: 25px; text-shadow: #ccc -1px 1px 1px;}
+
+h3 {color:#000; font-size:16px;}
+
+#wrapper-holder { width: 100%; background: url(../img/body-bg.jpg) repeat-x top center;}
+#wrapper {
+	width:970px;
+	min-height: 100%;
+	height: auto; !important
+	height: 100%;
+	margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
+	padding: 0 15px;
+	}
+#flash-content {width:970px; margin: 0 auto}
+header {height: 100px;}
+.login a {
+	position: absolute;
+	display: block;
+	float: right;
+	color: #999;
+	text-shadow: #000 -1px 1px 1px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 21px;
+	vertical-align: middle;
+	margin: 0 0 0 908px;
+	width: 62px;
+	height: 21px;
+	background: url(../img/login-btn.png) no-repeat top left;
+	}
+.login a:hover {
+	color: #fff;
+	text-shadow: #333 -1px 1px 1px;
+	background-position: top right;
+	}
+.login-open a {
+	position: absolute;
+	display: block;
+	float: right;
+	color: #fff;
+	text-shadow: #000 -1px 1px 1px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 21px;
+	vertical-align: middle;
+	margin: 0 0 0 908px;
+	width: 62px;
+	height: 21px;
+	background: url(../img/login-btn.png) no-repeat top right;
+	text-shadow: #333 -1px 1px 1px;
+	}
+#stretch {margin: 0 auto; background: url(../img/stretch-bg.jpg) repeat-x bottom center; height: 0; overflow: hidden; margin:0 auto; padding:0; list-style-type:none; width: 100%;}
+#stretch div {width: 1000px; margin: 0 auto;}
+form {padding: 20px; float: right;}
+form label {
+	display: inline;
+	margin: 0;
+	padding: 0 10px 0 0;
+	}
+form input {
+	display: inline;
+	margin: 0;
+	margin: 0 0 0 5px;
+	}
+form input#go {
+	background:url(../img/go-btn.png) no-repeat top left;
+	margin: 0 0 -7px;
+	}
+form input#go:hover {
+	background-position: top right;
+	}
+	
+#contact-form {
+	width: 350px;
+	float: right;
+	padding: 50px 0 0 20px;
+	}
+#contact-form p {
+	padding-bottom: 15px;
+	}
+#contact-form label {
+	display: block;
+	margin: 0;
+	padding: 0 10px 0 0;
+	font-size: 13px;
+	}
+#contact-form input {
+	display: block;
+	width: 200px;
+	margin: 0;
+	}
+#contact-form input#go {
+	background:url(../img/go-btn.png) no-repeat top left;
+	margin: 0 0 -7px;
+	}
+#contact-form input#go:hover {
+	background-position: top right;
+	}
+
+
+
+
+nav {
+	margin: 60px 0 0 0;
+	float: right;
+	}
+nav a {
+	font-size: 20px;
+	color: #999;
+	text-decoration: none;
+	padding: 5px 31px 0 8px;
+	border-left: 1px solid #333;
+	-webkit-transition: background 0.3s linear;
+	-moz-transition: background 0.3s linear;
+	-o-transition: background 0.3s linear;
+	transition: background 0.3s linear;
+	}
+nav a:hover,
+#about nav a.about,
+#services nav a.services,
+#portfolio nav a.portfolio,
+#clients nav a.clients,
+#news nav a.news,
+#contact nav a.contact
+	{
+	color: #fff;
+	border-left: 1px solid #9BC551;
+	background: url(../img/nav-bg.png) no-repeat top right;
+	}
+#content {
+	width: 970px;
+	padding: 10px 0;
+	}
+#content p {
+	font-size:12px;
+	color: #999;
+	line-height: 250%;
+	}
+#home p {
+	text-align: center;
+	}
+article {
+	width: 650px;
+	min-height: 540px;
+	float: right;
+	padding: 50px 0 0 0;
+	}
+#contact article {
+	width: 280px;
+	min-height: 540px;
+	float: left;
+	padding: 50px 0 0 20px;
+	background: url(../img/divider.jpg) no-repeat top left;
+	}
+#services article ul {
+	width: 270px;
+	margin: 0 30px 0 10px;
+	float: left;
+	list-style-type: none;
+	}
+#services article ul li {
+	color:#666;
+	font-size:18px;
+	padding-bottom: 35px;
+	text-shadow: #ccc -1px 1px 1px;
+	line-height: 40px;
+	vertical-align: middle;
+	}
+#services article ul li img {
+	margin-right: 10px;
+	vertical-align: middle;
+	}
+#clients article ul {
+	width: 650px;
+	list-style-type: none;
+	}
+#clients article ul li {
+	padding: 0 20px 55px;
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	vertical-align: middle;
+	text-align: center;
+	}
+#clients article ul li img {
+	vertical-align: middle;
+	}
+#clients article ul li.first {
+	padding: 0 20px 55px 0;
+	}
+#clients article ul li.last {
+	padding: 0 0 55px 20px;
+	}
+	
+#portfolio article ul {
+	width: 650px;
+	list-style-type: none;
+	margin-top: 10px;
+	}
+#portfolio article ul li a {
+	margin: 0 15px 35px;
+	padding: 0 10px 10px;
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	float: left;
+	vertical-align: middle;
+	text-align: center;
+	}
+#portfolio article ul li a:hover {
+	margin: -5px 15px 40px 15px;
+	padding: 0 10px 10px;
+	background: url(../img/thumb-bg.jpg) no-repeat bottom center;
+	}
+#portfolio article ul li a img {
+	vertical-align: middle;
+	}
+#portfolio article ul li a.first {
+	margin: 0 25px 45px 25px;
+	}
+	
+video {margin: 0 0 0 10px; padding: 0;background: #fff;}
+#video video {margin: 0;}
+.img-wrapper {
+  background: url(../img/shadow.gif) no-repeat bottom right;
+  float:left;
+  line-height:0;
+  margin-bottom: 10px;
+}
+ .img-wrapper img {
+  background:#fff;
+  padding:4px;
+  border:1px solid #a9a9a9;
+  position:relative;
+  left:-5px;
+  top:-5px;
+}
+#contact article p {
+	font-size: 14px;
+	}
+#contact article img {
+	float: right;
+	margin-right: 40px;
+	}
+.arrow {
+	position: absolute;
+	top: 120px;
+	z-index: 100;
+	left: 125px;
+	}
+aside {
+	margin: 50px 20px 0 0;
+	padding-right: 20px;
+	width: 280px;
+	min-height: 600px;
+	float: left;
+	position: relative;
+	background: url(../img/divider.jpg) no-repeat top right;
+	}
+aside a {
+	display: block;
+	width: 260px;
+	text-indent: -9999px;
+	height: 40px;
+	margin-top: 30px;
+	background: url(../img/work-btn.png) no-repeat 0 0;
+	}
+aside a:hover {
+	background-position: 0 -40px;
+	}
+footer {
+	height: 50px;
+	clear: both;
+	width: 970px;
+	margin: 0 auto;
+	}
+footer img {
+	margin: -100px -15px 0 0;
+	float: right;
+	clear: both;
+	}
+footer p {
+	font-size:10px;
+	color: #999;
+	text-align: right;
+	}
+.push {
+	height: 50px;
+	clear: both; /* .push must be the same height as .footer */
+	}
+
